@@ -13,6 +13,7 @@
 		25EE68691C805DBC00C0349B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EE68671C805DBC00C0349B /* Main.storyboard */; };
 		25EE686B1C805DBC00C0349B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EE686A1C805DBC00C0349B /* Assets.xcassets */; };
 		25EE686E1C805DBC00C0349B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EE686C1C805DBC00C0349B /* LaunchScreen.storyboard */; };
+		25EE68781C805DDE00C0349B /* UITextField+MaxLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EE68771C805DDE00C0349B /* UITextField+MaxLength.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		25EE686A1C805DBC00C0349B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25EE686D1C805DBC00C0349B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25EE686F1C805DBC00C0349B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EE68761C805DDE00C0349B /* UITextField+MaxLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+MaxLength.h"; sourceTree = "<group>"; };
+		25EE68771C805DDE00C0349B /* UITextField+MaxLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MaxLength.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		25EE685D1C805DBC00C0349B /* UITextField-MaxLength */ = {
 			isa = PBXGroup;
 			children = (
+				25EE68751C805DCD00C0349B /* UITextField-MaxLength */,
 				25EE68611C805DBC00C0349B /* AppDelegate.h */,
 				25EE68621C805DBC00C0349B /* AppDelegate.m */,
 				25EE68641C805DBC00C0349B /* ViewController.h */,
@@ -77,6 +81,15 @@
 				25EE685F1C805DBC00C0349B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25EE68751C805DCD00C0349B /* UITextField-MaxLength */ = {
+			isa = PBXGroup;
+			children = (
+				25EE68761C805DDE00C0349B /* UITextField+MaxLength.h */,
+				25EE68771C805DDE00C0349B /* UITextField+MaxLength.m */,
+			);
+			path = "UITextField-MaxLength";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25EE68781C805DDE00C0349B /* UITextField+MaxLength.m in Sources */,
 				25EE68661C805DBC00C0349B /* ViewController.m in Sources */,
 				25EE68631C805DBC00C0349B /* AppDelegate.m in Sources */,
 				25EE68601C805DBC00C0349B /* main.m in Sources */,
