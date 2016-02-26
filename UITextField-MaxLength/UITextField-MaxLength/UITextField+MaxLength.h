@@ -12,4 +12,6 @@
 
 @property (nonatomic, assign)IBInspectable NSInteger maxLength;
 
+@property (nonatomic, copy) void (^textDidChange)(NSString *text);
+
 @end
